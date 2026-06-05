@@ -13,11 +13,6 @@ BA Computer Science — Wells College, 2011
 
 ## Open Source
 
-### Claude Code Skills
-
-**[claude-skills-echart](https://github.com/nealepetrillo/claude-skills-echart)**  
-A Claude Code skill for generating production-ready Apache ECharts. Supports 20+ chart types across standalone HTML, vanilla JS, React, and Vue output formats. Applies evidence-based design defaults: colorblind-safe Paul Tol palettes, zero-baseline enforcement for bar charts, and ECharts v6 features including dynamic theme switching and chord charts.
-
 ### Python Libraries
 
 **[logring](https://github.com/nealepetrillo/logring)**  
@@ -38,10 +33,17 @@ A Pytest plugin to mock calls to GCP's secret manager; allows for the injection 
 **[SimplyEmail](https://github.com/nealepetrillo/SimplyEmail)**  
 A minimal C++ email library built on libcurl. Provides a straightforward interface for sending email over SMTP without pulling in a heavyweight dependency. Builds with CMake and targets C++11, tested on Ubuntu 18.04+ and RHEL 7.7+.
 
----
+### Claude Code Skills
 
-## Contact
+**[claude-skills-echart](https://github.com/nealepetrillo/claude-skills-echart)**
+A Claude Code skill for generating production-ready Apache ECharts. Supports 20+ chart types across standalone HTML, vanilla JS, React, and Vue output formats. Applies evidence-based design defaults: colorblind-safe Paul Tol palettes, zero-baseline enforcement for bar charts, and ECharts v6 features including dynamic theme switching and chord charts.
 
-neale.a.petrillo@gmail.com  
-[github.com/nealepetrillo](https://github.com/nealepetrillo)  
-[orcid.org/0009-0004-4411-9262](https://orcid.org/0009-0004-4411-9262)
+**[claude-skills-fastapi](https://github.com/nealepetrillo/claude-skills-fastapi)**
+A Claude Code skill built from the complete FastAPI documentation. Covers the full stack — routing, dependency injection, Pydantic validation, middleware, OAuth2/JWT authentication, WebSockets, background tasks, and SQLModel database integration — plus a detailed testing reference using TestClient and pytest fixtures.
+
+**[claude-skills-pytest](https://github.com/nealepetrillo/claude-skills-pytest)**
+A Claude Code skill for pytest, sourced from the official docs and key plugin ecosystems. Covers core pytest patterns (fixtures, parametrize, markers, monkeypatching, configuration) alongside deep reference material for a dozen plugins including pytest-mock, pytest-asyncio, pytest-xdist, pytest-playwright, and pytest-postgresql.
+
+**[claude-skills-poetry](https://github.com/nealepetrillo/claude-skills-poetry)**
+A Claude Code skill for managing Python projects with Poetry 2.x. Covers pyproject.toml generation per PEP 621, dependency groups, virtual environment handling, lock file management, and package publishing to PyPI or private repositories.
+
